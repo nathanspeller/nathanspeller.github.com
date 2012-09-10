@@ -6,6 +6,7 @@ html {
 }
 body {
 	max-width: 840px;
+	background-color: #F7F7EF;
   > div {
     background: none;
     border-bottom: none;
@@ -15,7 +16,7 @@ body {
     }
   }
   > header{
-	  background-color: #FFF;
+	  background-color: #F7F7EF;
   }
 }
 
@@ -28,7 +29,7 @@ article div.entry-content span{
 }
 
 a:hover{
-	color: darken(#4FCFC0, 9);
+	color: darken(#10AFB5, 9);
 }
 
 body > header h1 {
@@ -37,11 +38,11 @@ body > header h1 {
 }
 
 body > header h1 a, body > header h1 a:visited {
-	color: #4FCFC0;
+	color: #10AFB5;
 }
 
 body > header h1 a:hover{
-	color: saturate(#4FCFC0, 10);
+	color: saturate(#10AFB5, 10);
 }
 
 body > nav {
