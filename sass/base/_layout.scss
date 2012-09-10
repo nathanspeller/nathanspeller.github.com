@@ -160,7 +160,6 @@ body.sidebar-footer {
     section {
       width: auto; margin-left: 0;
       &.odd, &.even { float: none; width: auto; margin-left: 0; }
-  	h1 { margin-top: 0 !important; }
     }
     .collapse-sidebar & {
       @include collapse-sidebar;
