@@ -151,14 +151,16 @@ body.sidebar-footer {
   }
   aside.sidebar {
     width: $sidebar-width-medium - $sidebar-pad-medium*2;
-    padding: 0 $sidebar-pad-medium $sidebar-pad-medium;
+    padding: 0;
     background: none;
+	border: none;
     clear: none;
     float: left;
     margin: 0 -100% 0 0;
     section {
       width: auto; margin-left: 0;
       &.odd, &.even { float: none; width: auto; margin-left: 0; }
+  	h1 { margin-top: 0 !important; }
     }
     .collapse-sidebar & {
       @include collapse-sidebar;
@@ -177,7 +179,8 @@ body.sidebar-footer {
   }
   aside.sidebar {
     width: $sidebar-width-wide - $sidebar-pad-wide*2;
-    padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
+    padding: 0;
+	border: none;
     .collapse-sidebar & {
       padding: { left: $pad-wide; right: $pad-wide; }
     }
