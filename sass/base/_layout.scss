@@ -60,10 +60,10 @@ body {
       padding-left: $pad-medium;
       padding-right: $pad-medium;
     }
-    @media only screen and (min-width: 992px) {
+/*    @media only screen and (min-width: 992px) {
       padding-left: $pad-wide;
       padding-right: $pad-wide;
-    }
+    }*/
   }
   div.pagination {
     @extend .group;
@@ -77,10 +77,10 @@ body {
       margin-left: $pad-medium;
       margin-right: $pad-medium;
     }
-    @media only screen and (min-width: 992px) {
+/*    @media only screen and (min-width: 992px) {
       margin-left: $pad-wide;
       margin-right: $pad-wide;
-    }
+    }*/
   }
   > header {
     font-size: $header-font-size;
@@ -167,7 +167,7 @@ body.sidebar-footer {
   }
 }
 
-@media only screen and (min-width: 992px) {
+/*@media only screen and (min-width: 992px) {
   body > header { font-size: $header-font-size * 1.3; }
   #content { margin-right: $sidebar-width-wide; }
   #content {
@@ -184,7 +184,7 @@ body.sidebar-footer {
       padding: { left: $pad-wide; right: $pad-wide; }
     }
   }
-}
+}*/
 
 @if $indented-lists == false {
   @media only screen and (min-width: 768px) {

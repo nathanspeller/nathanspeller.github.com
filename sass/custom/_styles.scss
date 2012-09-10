@@ -5,7 +5,7 @@ html {
   background: none;
 }
 body {
-	border-top: 6px solid #86134C;
+	max-width: 840px;
   > div {
     background: none;
     border-bottom: none;
@@ -19,13 +19,29 @@ body {
   }
 }
 
+a, a:visited {
+	color: #409F90;
+}
+
+article div.entry-content span{
+	background-color: #FF9;
+}
+
+a:hover{
+	color: saturate(#4FCFC0, 10);
+}
+
 body > header h1 {
 	font-weight: bold;
 	letter-spacing: -0.03em;
 }
 
-body > header h1 a, body > header h1 a:visited, body > header h1 a:hover {
+body > header h1 a, body > header h1 a:visited {
 	color: #4FCFC0;
+}
+
+body > header h1 a:hover{
+	color: saturate(#4FCFC0, 10);
 }
 
 body > nav {
@@ -33,6 +49,10 @@ body > nav {
 	background-color: #f2f2f2;
 	border: none;
 	display: none;
+}
+
+#main #full-width #content{
+	margin-right: 0px;
 }
 
 aside.sidebar li {
