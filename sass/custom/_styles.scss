@@ -60,6 +60,54 @@ blockquote{
 	border-left-color: #DEDED3;
 }
 
+aside.sidebar img{
+    -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+      -o-box-shadow: none !important;
+         box-shadow: none !important;
+ border: 0px none !important;
+ border-radius: 0px;
+}
+
 aside.sidebar li {
 	border: none;
+}
+
+aside.sidebar a{
+	text-decoration: none;
+}
+
+aside.sidebar section h1{
+	border-bottom: none;
+}
+
+#nate-speller-logo{
+	margin-left: 55px;
+	margin-top: 35px;
+	margin-right: 10px;
+	float: right;
+}
+
+@media only screen and (min-width: 768px) {
+	#content{
+		padding-left: 280px;
+		margin-right: 0 !important;
+	}
+	aside.sidebar {
+		position: fixed;
+		left: 35px;
+		top: 0px;
+		background-image: url("../images/grey_out.png");
+		width: 205px;
+		height: 100%;
+		background-repeat: no-repeat;
+		background-position: 210px 0px;
+		padding-right: 35px;
+	}
+	body > header, footer{
+		padding-left: 315px !important;
+	}
+	#nate-speller-logo{
+		float: none;
+	}
 }
