@@ -82,10 +82,13 @@ aside.sidebar section h1{
 }
 
 #nate-speller-logo{
-	margin-left: 55px;
-	margin-top: 35px;
+	float:right;
+}
+
+#nate-speller-logo img{
+	margin-left: 25px;
+	margin-top: 15px;
 	margin-right: 10px;
-	float: right;
 }
 
 @media only screen and (min-width: 768px) {
@@ -110,4 +113,8 @@ aside.sidebar section h1{
 	#nate-speller-logo{
 		float: none;
 	}
+}
+
+article footer{
+	padding-left: 0px !important;
 }
