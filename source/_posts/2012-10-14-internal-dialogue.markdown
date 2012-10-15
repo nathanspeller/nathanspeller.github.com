@@ -20,7 +20,7 @@ It's that voice in your head that never seems to quit:
 <blockquote>"just one more slice of pie"<br>
   "OMG I'm so fat"</blockquote>
 
-You've tried to fix the situation with motivational youtube videos, new workout buddies, the latest to-do lists (to-do lists for your to-do lists), etc. You get excited about your new found motivation. You get pumped: "I got this!!! There's no way I can fail this time!!"
+You've tried to fix the situation with motivational youtube videos, new workout tapes, the latest to-do lists (to-do lists for your to-do lists), etc. You get excited about your new found motivation. "I got this!!! There's no way I can fail this time!!"
 
 Yet the internal dialogue brings you down eventually.
 
