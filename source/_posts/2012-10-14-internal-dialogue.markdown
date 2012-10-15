@@ -13,12 +13,12 @@ I'm willing to bet that there's another person you speak to more. One that never
 It's you. 
 
 It's that voice in your head that never seems to quit: 
-- "I'll start that personal project tomorrow"
-"ugh, everyone else is so much more successful"
-- "just one more article and then I'll start my work"
-"ugh, I'm so lazy"
-- "just one more donut" 
-  "ugh, OMG I'm so fat"
+<blockquote>"I'll start that personal project tomorrow"<br>
+"geez, everyone else is so much more successful"</blockquote>
+<blockquote>"just one more article and then I'll start my work"<br>
+"ugh, I'm so lazy"</blockquote>
+<blockquote>"just one more slice of pie"<br>
+  "OMG I'm so fat"</blockquote>
 
 You've tried to fix the situation with motivational youtube videos, new workout buddies, the latest to-do lists (to-do lists for your to-do lists), etc. You get excited about your new found motivation. You get pumped: "I got this!!! There's no way I can fail this time!!"
 
