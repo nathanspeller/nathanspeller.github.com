@@ -23,6 +23,7 @@ layout: default
 <aside class="sidebar">
 	<a id="nate-speller-logo" href="/">
 	<img src="/images/nate-speller-logo.png" /></a>
+  {% include sidebar_bio.html %}
   {% if site.blog_index_asides.size %}
     {% include_array blog_index_asides %}
   {% else %}
