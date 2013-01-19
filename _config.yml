@@ -7,7 +7,7 @@ title: Nate Speller
 subtitle: is talking to himself again.
 author: Nathan Speller
 simple_search: http://google.com/search
-description:
+description: "Nathan Speller is an entrepreneur, developer and designer blogging about startups in Pittsburgh, PA"
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:title/
 source: source
 destination: public
 plugins: plugins
