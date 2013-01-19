@@ -2,8 +2,8 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://ogn8.com
-title: Nate Speller
+url: http://nathanspeller.com
+title: Nathan Speller
 subtitle: is talking to himself again.
 author: Nathan Speller
 simple_search: http://google.com/search
@@ -93,7 +93,7 @@ disqus_short_name: ogn8
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: UA-36577128-1
+google_analytics_tracking_id: UA-1407949-2
 
 # Facebook Like
 facebook_like: false
