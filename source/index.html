@@ -9,6 +9,9 @@ layout: default
     <article>
       {% include article.html %}
       <p class="meta">
+        <p class="meta-date"> 
+          {% include post/date.html %}{{ time }}
+        </p>
         <a href="{{ root_url }}{{ post.url }}#disqus_thread">View Comments</a> 
         {% if site.twitter_tweet_button and false %}
         <span style="position: relative; top: 4px; float: right">

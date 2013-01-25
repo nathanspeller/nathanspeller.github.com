@@ -15,6 +15,9 @@ single: true
     </p>
     {% endif %}
     
+    <p class="meta-date"> 
+      {% include post/date.html %}{{ time }}
+    </p>
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
     {% endunless %}
@@ -32,6 +35,7 @@ single: true
 
   </footer>
 </article>
+
 {% if site.disqus_short_name and page.comments == true %}
   <section>
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
