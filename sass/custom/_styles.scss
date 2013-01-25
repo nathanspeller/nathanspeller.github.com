@@ -29,20 +29,24 @@ article div.entry-content span{
 }
 
 a:hover{
-	color: darken(#10AFB5, 9);
+	color: darken(#dd4a38, 9);
 }
 
 body > header h1 {
 	font-weight: bold;
-	letter-spacing: -0.03em;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+body > header h2{
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 1.5em;
 }
 
 body > header h1 a, body > header h1 a:visited {
-	color: #10AFB5;
-}
-
-body > header h1 a:hover{
-	color: saturate(#10AFB5, 10);
+	color: #dd4a38;
 }
 
 #content .blog-index article h1 a:hover {
@@ -56,8 +60,17 @@ body > nav {
 	display: none;
 }
 
+hgroup{
+  width: 380px;
+}
+
 #main #full-width #content{
 	margin-right: 0px;
+}
+
+article header{
+  background: none;
+  padding-bottom: 0;
 }
 
 blockquote{
@@ -83,6 +96,12 @@ aside.sidebar a{
 
 aside.sidebar section h1{
 	border-bottom: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #dd4a38;
+  line-height: 2em;
+  margin-top: 25px;
 }
 
 #nate-speller-logo{
@@ -91,14 +110,13 @@ aside.sidebar section h1{
 
 #nate-speller-logo img{
 	margin-left: 25px;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-right: 10px;
 }
 
 .sidebar-bio{
   font-size: 0.8em;
   margin: 30px 0px 32px;
-  text-align: center;
   display: relative;
 }
 
@@ -111,7 +129,6 @@ aside.sidebar section h1{
 		position: fixed;
 		left: 35px;
 		top: 0px;
-		background-image: url("../images/grey_out.png");
 		width: 205px;
 		height: 100%;
 		background-repeat: no-repeat;
@@ -156,4 +173,8 @@ article img{
   -moz-box-shadow: none;
   box-shadow: none;
   border: none;
+}
+
+a:hover{
+	color: saturate(#dd4a38, 10) !important;
 }

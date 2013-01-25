@@ -8,6 +8,13 @@ layout: default
   {% assign content = post.content %}
     <article>
       {% include article.html %}
+      <p class="meta">
+        <a href="{{ root_url }}{{ post.url }}#disqus_thread">View Comments</a> 
+        {% if site.twitter_tweet_button and false %}
+        <span style="position: relative; top: 4px; float: right">
+        <a href="http://twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ post.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}{{ post.url }}" >Tweet</a></span>
+        {% endif %}
+      </p>
     </article>
   {% endfor %}
   <div class="pagination">
@@ -20,13 +27,4 @@ layout: default
     {% endif %}
   </div>
 </div>
-<aside class="sidebar">
-	<a id="nate-speller-logo" href="/">
-	<img src="/images/nate-speller-logo.png" /></a>
-  {% include sidebar_bio.html %}
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+{% include sidebar.html %}
