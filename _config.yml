@@ -16,8 +16,8 @@ description: "Nathan Speller is an entrepreneur, developer and designer writing 
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
-subscribe_email:
+subscribe_rss: http://feeds.feedburner.com/nathanspeller
+subscribe_email: http://feedburner.google.com/fb/a/mailverify?uri=nathanspeller
 # RSS feeds can list your email address if you like
 email:
 
