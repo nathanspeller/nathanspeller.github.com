@@ -3,6 +3,7 @@ layout: post
 title: "Distraction Creep"
 date: 2013-02-04 12:15
 comments: true
+stars: 1
 categories: 
 ---
 

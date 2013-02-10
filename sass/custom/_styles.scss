@@ -65,7 +65,11 @@ body > nav {
 }
 
 hgroup{
-  width: 380px;
+  max-width: 380px;
+  h2 a{
+    text-decoration: none;
+    color: #AAA !important;
+  }
 }
 
 #main #full-width #content{
@@ -114,7 +118,7 @@ aside.sidebar section h1{
 }
 
 #nate-speller-logo img{
-	margin-left: 25px;
+	margin-left: 46px;
 	margin-top: 25px;
 	margin-right: 10px;
 }
@@ -146,10 +150,34 @@ aside.sidebar section h1{
 	#nate-speller-logo{
 		float: none;
 	}
+  .landing-sidebar{
+    #nate-speller-logo img{
+      margin-left: 70px;
+    }
+  }
+  #blog-archives{
+    margin-left: -152px;
+  }
+  .stars{
+    float: right;
+    display: inline-block;
+    width: 70px;
+    img{
+      margin:8px 0px;
+    }
+  }
 }
+
+
 
 @media only screen and (max-width: 767px) {
   .sidebar-bio{
+    display: none;
+  }
+  .landing-sidebar{
+    display: none;
+  }
+  .stars{
     display: none;
   }
 }

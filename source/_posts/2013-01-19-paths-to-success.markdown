@@ -3,6 +3,7 @@ layout: post
 title: "The Few Paths to Success"
 date: 2013-01-19 15:50
 comments: true
+stars: 3
 categories: 
 ---
 
@@ -22,7 +23,7 @@ But what is your plan for Step 2? For this we need to take a closer look at the 
 
 At any given point there are an infinite number of tasks your company can be working on: promoting, building, hiring, networking, etc. Lets assume that every set of decisions represents a path to either success or failure. Unfortunately, most of these paths lead to failure (see the <a href="http://en.wikipedia.org/wiki/Power_law">power law</a>). The CS degree that I'm still paying for says I should visualize this as a search tree.
 
-<img src="http://ogblog.s3.amazonaws.com/paths-to-success-graph.png" />
+<img src="/images/blog/paths-to-success-graph.png" />
 
 If the problem is presented this way, there are a few conclusions we can make. First, succeeding on intuition alone is nearly impossible. You are inexperienced and there are just too many paths to consider. (In fact, this model doesn't even take into account that luck is a very real factor and most of the paths are unknown i.e. you can't see the paths you don't think of).
 

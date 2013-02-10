@@ -4,7 +4,7 @@
   <title><![CDATA[Nathan Speller]]></title>
   <link href="http://nathanspeller.com/atom.xml" rel="self"/>
   <link href="http://nathanspeller.com/"/>
-  <updated>2013-02-08T02:38:32-05:00</updated>
+  <updated>2013-02-10T18:38:33-05:00</updated>
   <id>http://nathanspeller.com/</id>
   <author>
     <name><![CDATA[Nathan Speller]]></name>
@@ -70,7 +70,7 @@ Step 3. PROFIT</p>
 
 <p>At any given point there are an infinite number of tasks your company can be working on: promoting, building, hiring, networking, etc. Lets assume that every set of decisions represents a path to either success or failure. Unfortunately, most of these paths lead to failure (see the <a href="http://en.wikipedia.org/wiki/Power_law">power law</a>). The CS degree that I&#8217;m still paying for says I should visualize this as a search tree.</p>
 
-<p><img src="http://ogblog.s3.amazonaws.com/paths-to-success-graph.png" /></p>
+<p><img src="http://nathanspeller.com/images/blog/paths-to-success-graph.png" /></p>
 
 <p>If the problem is presented this way, there are a few conclusions we can make. First, succeeding on intuition alone is nearly impossible. You are inexperienced and there are just too many paths to consider. (In fact, this model doesn&#8217;t even take into account that luck is a very real factor and most of the paths are unknown i.e. you can&#8217;t see the paths you don&#8217;t think of).</p>
 
