@@ -3,7 +3,6 @@ layout: post
 title: "Success is Silent"
 date: 2012-10-14 22:18
 comments: true
-stars: 1
 categories: 
 ---
 
