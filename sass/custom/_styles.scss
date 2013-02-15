@@ -161,10 +161,19 @@ aside.sidebar section h1{
   .stars{
     float: right;
     display: inline-block;
-    width: 70px;
+    width: 60px;
     img{
-      margin:8px 0px;
+      margin:10px 0px;
     }
+  }
+  #visits{
+    font-size: 13px;
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: 21px;
+    color: #AAA;
+    margin-bottom: -30px;
   }
 }
 

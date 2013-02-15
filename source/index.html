@@ -2,7 +2,7 @@
 layout: nosidebar
 footer: false
 ---
-
+<span id="visits">VIEWS</span>
 <div id="blog-archives">
 {% for post in site.posts reverse %}
 {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -13,7 +13,7 @@ footer: false
 <article>
   <span class="stars">
   {% for star in (1..post.stars) %}
-    <img src="/images/star.png" />
+    <img src="/images/circle.png" />
   {% endfor %}
   </span>
 
