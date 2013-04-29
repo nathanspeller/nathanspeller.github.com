@@ -11,12 +11,6 @@ footer: false
   <h2>{{ year }}</h2>
 {% endunless %}
 <article>
-  <span class="stars">
-  {% for star in (1..post.stars) %}
-    <img src="/images/circle.png" />
-  {% endfor %}
-  </span>
-
   {% include archive_post.html %}
 </article>
 {% endfor %}
