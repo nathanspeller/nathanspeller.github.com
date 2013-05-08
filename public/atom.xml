@@ -4,7 +4,7 @@
   <title><![CDATA[Nathan Speller]]></title>
   <link href="http://nathanspeller.com/atom.xml" rel="self"/>
   <link href="http://nathanspeller.com/"/>
-  <updated>2013-05-08T13:08:48-04:00</updated>
+  <updated>2013-05-08T13:52:22-04:00</updated>
   <id>http://nathanspeller.com/</id>
   <author>
     <name><![CDATA[Nathan Speller]]></name>
@@ -20,7 +20,7 @@
     <id>http://nathanspeller.com/color-pickers</id>
     <content type="html"><![CDATA[<p>Our goal for this project is to design a color picker that helps everyone (even your grandma) pick &#8220;better&#8221; color combinations. In other words, is color picking limited to those with taste or is there some underlying relationship we can utilize? Can we write an algorithm that selects great color combinations for us?</p>
 
-<p>Below is an experiment I call <em>The Colors of Dribbble</em>. It picks a random color and then displays the palettes of the most popular shots from <a href="http://dribbble.com/">Dribbble</a> that contain that color. The base color is the color of the refresh button on the right.</p>
+<p>Below is an experiment I call <em>The Colors of Dribbble</em>. It picks a random color and then displays the palettes of the most popular shots from <a href="http://dribbble.com/">Dribbble</a> that contain that color. The refresh button on the right is the base color. Sorry, no Internet Explorer.</p>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 

@@ -9,7 +9,7 @@ categories:
 
 Our goal for this project is to design a color picker that helps everyone (even your grandma) pick "better" color combinations. In other words, is color picking limited to those with taste or is there some underlying relationship we can utilize? Can we write an algorithm that selects great color combinations for us?
 
-Below is an experiment I call _The Colors of Dribbble_. It picks a random color and then displays the palettes of the most popular shots from [Dribbble](http://dribbble.com/) that contain that color. The base color is the color of the refresh button on the right.
+Below is an experiment I call _The Colors of Dribbble_. It picks a random color and then displays the palettes of the most popular shots from [Dribbble](http://dribbble.com/) that contain that color. The refresh button on the right is the base color. Sorry, no Internet Explorer.
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="../javascripts/colors.js"></script>
