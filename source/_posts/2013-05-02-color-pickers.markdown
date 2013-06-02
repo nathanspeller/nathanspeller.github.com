@@ -3,7 +3,7 @@ layout: post
 title: "Color Pickers"
 date: 2013-05-08 16:59
 comments: true
-stars: 2
+stars: 3
 categories: 
 ---
 
