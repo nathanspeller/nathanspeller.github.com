@@ -1,0 +1,313 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Color Pickers - Nathan Speller</title>
+  <meta name="author" content="Nathan Speller">
+
+  
+  
+  <meta name="description" content="Our goal for this project is to design a color picker that helps everyone (even your grandma) pick &#8220;better&#8221; color combinations. In other &hellip;">
+  
+  
+  
+  
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://nathanspeller.com/color-pickers/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css?v=1.2" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://nathanspeller.com/atom.xml" rel="alternate" title="Nathan Speller" type="application/atom+xml">
+  
+  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1407949-2']);
+  _gaq.push(['_setDomainName', 'nathanspeller.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Nathan Speller</a></h1>
+  
+    <h2>Startups, design, and self-awareness. Founder at <a href="http://wizzywig.io">wizzywig.io</a></h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://nathanspeller.com/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://eepurl.com/vQ9LP" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:nathanspeller.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Color Pickers</h1>
+    
+    
+  </header>
+
+
+<div class="entry-content"><p>Our goal for this project is to design a color picker that helps everyone (even your grandma) pick &#8220;better&#8221; color combinations. In other words, is color picking limited to those with taste or is there some underlying relationship we can utilize? Can we write an algorithm that selects great color combinations for us?</p>
+
+<p>Below is an experiment I call <em>The Colors of Dribbble</em>. It picks a random color and then displays the palettes of the most popular shots from <a href="http://dribbble.com/">Dribbble</a> that contain that color. The refresh button on the right is the base color. Sorry, no Internet Explorer.</p>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+
+<script src="../javascripts/colors.js"></script>
+
+
+<p><link href="/stylesheets/colors.css" media="screen, projection" rel="stylesheet" type="text/css"></p>
+
+<div class="color-wheel">
+  <div id="circle"></div>
+  <div id="circle-border"></div>
+  <div id="spokes"></div>
+</div>
+
+
+
+
+<div class="color-blocks">
+  <div class="block-house"></div>
+</div>
+
+
+<p>Below the color wheel are palettes of the top eight colors from each shot. If you hover over the bottom palettes it will hide all other palettes from the color wheel. On the surface it&#8217;s a fun tool to play with. For example, look for the color rules below when hovering.</p>
+
+<p><img src="/images/color-rules.png" alt="color rules" /></p>
+
+<h3>A Color Formula</h3>
+
+<p>If you&#8217;ve ever dabbled in color theory you&#8217;ll know there are a ton of rules for picking color combos. You can spend days reading about various color systems, HSV, RGB, CMYK, CIELAB, additive/subtractive color mixing, etc. The rule-based nature of this information makes a &#8220;color-combo formula&#8221; seem plausible.</p>
+
+<p>Additionally, there won&#8217;t be any new colors years from now. The color spectrum of the future will be exactly the same as it is today. It&#8217;s neat to think we already have access to the color palettes of the year 3000. Because of this, it seems we have everything we need to write an end-all-be-all algorithm for picking good-looking color palettes.</p>
+
+<p>Unfortunately, it&#8217;s not that simple.</p>
+
+<h3>Culture, Context, and Time</h3>
+
+<p>There is a lot more involved in picking color combinations than the rules and guidelines you&#8217;ll find in basic color theory. Other things that matter include:</p>
+
+<ul>
+<li> Time - what looked good in the seventies may look terrible now</li>
+<li> Medium - the colors of a movie poster would make a poor street sign</li>
+<li> Popularity - skeuomorphism may be beautiful until everyone does it</li>
+<li> Existing Landscape - a competitor&#8217;s colors are off-limits</li>
+</ul>
+
+
+<p>…suddenly color picking starts to look a lot like predicting stocks.</p>
+
+<p>Ultimately, there is no such thing as a good color combination in a vacuum. What is considered good-looking requires information about society, and about existing color combinations in the space or industry. We need to know what colors are fashionable, trendy, or overused in the world. We need <em>a lot</em> of information.</p>
+
+<p>What does this mean for our color picking algorithm? Do we just give up? How could we possibly collect and incorporate all of this information into a color picker?</p>
+
+<h3>Big Data</h3>
+
+<p>Believe it or not, this information is already available to us. Sites like Dribbble, Forrst, or Behance have created dense communities of designers with taste, sharing their work. At the time of this post there have been 108,854,356,487 pixels &#8220;dribbbled&#8221; on Dribbble. Not until now could you so quickly aggregate a &#8220;snapshot&#8221; of great design today. A place that collects samples of the best work from (only) those with taste.</p>
+
+<p>From this we can measure what is up-and-coming, popular, or on it&#8217;s way out in the world of design.  We can use the innate understanding from these designers to make color picking easier for everyone else. In the not-too-distant future, we may even be able to measure (and generate?) good taste.</p>
+
+<p>We&#8217;ll be releasing a more full-featured color picker soon where you can breakdown colors by medium, see the original artwork, etc.</p>
+</div>
+
+  
+  <footer>
+    
+    
+    <p class="meta-date"> 
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-05-08T16:59:00-07:00" pubdate data-updated="true">May 8<span>th</span>, 2013</time>
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://nathanspeller.com/color-pickers/" data-via="" data-counturl="http://nathanspeller.com/color-pickers/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="false" data-layout="button_count" data-width="140" data-show-faces="false" style="position: relative; bottom: 3px;"></div>
+  
+</div>
+
+    
+    
+    
+
+  </footer>
+</article>
+
+  <div class="pagination">
+    
+        <a class="basic-alignment left" href="/inbound-marketing-for-startups/" title="Previous Post: Inbound Marketing for Startups">&laquo; Inbound Marketing for Startups</a>
+      
+    
+  </div>
+
+
+
+
+</div>
+
+  <aside class="sidebar">
+	<a id="nate-speller-logo" href="/">
+	<img src="/images/nate-speller-logo.png" /></a>
+	<p class="sidebar-bio">
+  Entrepreneur, developer, designer, currently in San Francisco, CA.
+</p>
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/color-pickers/">Color Pickers</a>
+      </li>
+    
+      <li class="post">
+        <a href="/inbound-marketing-for-startups/">Inbound Marketing for Startups</a>
+      </li>
+    
+      <li class="post">
+        <a href="/distraction-creep/">Distraction Creep</a>
+      </li>
+    
+      <li class="post">
+        <a href="/paths-to-success/">The Few Paths to Success</a>
+      </li>
+    
+      <li class="post">
+        <a href="/taking-responsibility/">Taking Responsibility</a>
+      </li>
+    
+  </ul>
+  <h1>Give me more</h1>
+  <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="/">Blog Archive</a>
+    </li>
+    <li>
+      <a href="http://eepurl.com/vQ9LP" title="subscribe via email">Subscribe via Email</a>
+    </li>
+    <li>
+      <a href="http://nathanspeller.com/atom.xml">RSS</a>
+    </li>
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  <!-- Copyright &copy; 2013 - Nathan Speller -
+    <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> -->
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
