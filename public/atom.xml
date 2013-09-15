@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Nathan Speller]]></title>
-  <link href="http://nathanspeller.com/atom.xml" rel="self"/>
-  <link href="http://nathanspeller.com/"/>
-  <updated>2013-09-14T22:23:47-07:00</updated>
-  <id>http://nathanspeller.com/</id>
+  <link href="http://nathanspeller.github.com/atom.xml" rel="self"/>
+  <link href="http://nathanspeller.github.com/"/>
+  <updated>2013-09-14T22:37:49-07:00</updated>
+  <id>http://nathanspeller.github.com/</id>
   <author>
     <name><![CDATA[Nathan Speller]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Color Pickers]]></title>
-    <link href="http://nathanspeller.com/color-pickers/"/>
+    <link href="http://nathanspeller.github.com/color-pickers/"/>
     <updated>2013-05-08T16:59:00-07:00</updated>
-    <id>http://nathanspeller.com/color-pickers</id>
+    <id>http://nathanspeller.github.com/color-pickers</id>
     <content type="html"><![CDATA[<p>Our goal for this project is to design a color picker that helps everyone (even your grandma) pick &#8220;better&#8221; color combinations. In other words, is color picking limited to those with taste or is there some underlying relationship we can utilize? Can we write an algorithm that selects great color combinations for us?</p>
 
 <p>Below is an experiment I call <em>The Colors of Dribbble</em>. It picks a random color and then displays the palettes of the most popular shots from <a href="http://dribbble.com/">Dribbble</a> that contain that color. The refresh button on the right is the base color. Sorry, no Internet Explorer.</p>
@@ -28,7 +28,7 @@
 <script src="../javascripts/colors.js"></script>
 
 
-<p><link href="http://nathanspeller.com/stylesheets/colors.css" media="screen, projection" rel="stylesheet" type="text/css"></p>
+<p><link href="http://nathanspeller.github.com/stylesheets/colors.css" media="screen, projection" rel="stylesheet" type="text/css"></p>
 
 <div class="color-wheel">
   <div id="circle"></div>
@@ -46,7 +46,7 @@
 
 <p>Below the color wheel are palettes of the top eight colors from each shot. If you hover over the bottom palettes it will hide all other palettes from the color wheel. On the surface it&#8217;s a fun tool to play with. For example, look for the color rules below when hovering.</p>
 
-<p><img src="http://nathanspeller.com/images/color-rules.png" alt="color rules" /></p>
+<p><img src="http://nathanspeller.github.com/images/color-rules.png" alt="color rules" /></p>
 
 <h3>A Color Formula</h3>
 
@@ -86,9 +86,9 @@
   
   <entry>
     <title type="html"><![CDATA[Inbound Marketing for Startups]]></title>
-    <link href="http://nathanspeller.com/inbound-marketing-for-startups/"/>
+    <link href="http://nathanspeller.github.com/inbound-marketing-for-startups/"/>
     <updated>2013-02-18T18:25:00-08:00</updated>
-    <id>http://nathanspeller.com/inbound-marketing-for-startups</id>
+    <id>http://nathanspeller.github.com/inbound-marketing-for-startups</id>
     <content type="html"><![CDATA[<blockquote><p>Nate, the product is built. It&#8217;s mobile, it&#8217;s real-time, and it scales to millions of users. I&#8217;ve spent two years building it and it&#8217;s my friggin&#8217; masterpiece. Now how the hell do we market this? Just make a blog and tweet about it yeah?</p></blockquote>
 
 <p>It&#8217;s 2013 and the most prevalent marketing strategy for first-time founders goes like this:</p>
@@ -142,9 +142,9 @@
   
   <entry>
     <title type="html"><![CDATA[Distraction Creep]]></title>
-    <link href="http://nathanspeller.com/distraction-creep/"/>
+    <link href="http://nathanspeller.github.com/distraction-creep/"/>
     <updated>2013-02-04T12:15:00-08:00</updated>
-    <id>http://nathanspeller.com/distraction-creep</id>
+    <id>http://nathanspeller.github.com/distraction-creep</id>
     <content type="html"><![CDATA[<p>The last time I was bored was over a decade ago.</p>
 
 <p>In middle school there would be days where I was in pain because I had nothing to do. Play a game? No one to play with. Go outside? Too cold. A restless hunger would build inside me. Slouched on the couch like a zombie, I&#8217;d wait and pray for a distraction.</p>
@@ -178,9 +178,9 @@
   
   <entry>
     <title type="html"><![CDATA[The Few Paths to Success]]></title>
-    <link href="http://nathanspeller.com/paths-to-success/"/>
+    <link href="http://nathanspeller.github.com/paths-to-success/"/>
     <updated>2013-01-19T15:50:00-08:00</updated>
-    <id>http://nathanspeller.com/paths-to-success</id>
+    <id>http://nathanspeller.github.com/paths-to-success</id>
     <content type="html"><![CDATA[<p>Step 1. Steal Underpants <br>
 Step 2. ????? <br>
 Step 3. PROFIT</p>
@@ -197,7 +197,7 @@ Step 3. PROFIT</p>
 
 <p>At any given point there are an infinite number of tasks your company can be working on: promoting, building, hiring, networking, etc. Lets assume that every set of decisions represents a path to either success or failure. Unfortunately, most of these paths lead to failure (see the <a href="http://en.wikipedia.org/wiki/Power_law">power law</a>). The CS degree that I&#8217;m still paying for says I should visualize this as a search tree.</p>
 
-<p><img src="http://nathanspeller.com/images/blog/paths-to-success-graph.png" /></p>
+<p><img src="http://nathanspeller.github.com/images/blog/paths-to-success-graph.png" /></p>
 
 <p>If the problem is presented this way, there are a few conclusions we can make. First, succeeding on intuition alone is nearly impossible. You are inexperienced and there are just too many paths to consider. (In fact, this model doesn&#8217;t even take into account that luck is a very real factor and most of the paths are unknown i.e. you can&#8217;t see the paths you don&#8217;t think of).</p>
 
@@ -252,9 +252,9 @@ Step 3. PROFIT</p>
   
   <entry>
     <title type="html"><![CDATA[Taking Responsibility]]></title>
-    <link href="http://nathanspeller.com/taking-responsibility/"/>
+    <link href="http://nathanspeller.github.com/taking-responsibility/"/>
     <updated>2013-01-13T23:39:00-08:00</updated>
-    <id>http://nathanspeller.com/taking-responsibility</id>
+    <id>http://nathanspeller.github.com/taking-responsibility</id>
     <content type="html"><![CDATA[<p>More often than not, bad stuff happens in the startup world. Customers complain, deals fall through, cofounders leave. When things get tough it&#8217;s easy to blame the external circumstances. &#8220;That investor screwed us over!&#8221; &#8220;That cofounder left us with nothing!&#8221;</p>
 
 <p>Then I watch a superhero movie. You watch these guys (Batman, Spiderman, Ryan Gosling), who feel it is their duty to save the world. At any point they can give up and say &#8220;not my responsibility&#8221; but they persist.</p>
@@ -267,9 +267,9 @@ Step 3. PROFIT</p>
   
   <entry>
     <title type="html"><![CDATA[The Way You Say It Matters]]></title>
-    <link href="http://nathanspeller.com/phrasing/"/>
+    <link href="http://nathanspeller.github.com/phrasing/"/>
     <updated>2012-10-27T12:44:00-07:00</updated>
-    <id>http://nathanspeller.com/phrasing</id>
+    <id>http://nathanspeller.github.com/phrasing</id>
     <content type="html"><![CDATA[<p>There are a ton of books written on <a href="http://www.amazon.com/How-Talk-Kids-Will-Listen/dp/1451663889/">how to talk to children</a>. One topic I see frequently is how to properly phrase criticism. The idea is that when a child misbehaves, it&#8217;s said that you should denounce the action, yet praise the child. i.e. &#8220;she is a good kid who has done something wrong&#8221; - rather than &#8220;she is a terrible kid.&#8221;</p>
 
 <p>Interestingly, anyone can apply this advice to their internal dialogue to learn what they think of themselves. For example, many people will say to themselves, &#8220;I&#8217;ve always been a lazy guy, but today I got a lot of work done - I did good today.&#8221;</p>
@@ -289,9 +289,9 @@ Step 3. PROFIT</p>
   
   <entry>
     <title type="html"><![CDATA[Mood Killers]]></title>
-    <link href="http://nathanspeller.com/tone/"/>
+    <link href="http://nathanspeller.github.com/tone/"/>
     <updated>2012-10-20T12:43:00-07:00</updated>
-    <id>http://nathanspeller.com/tone</id>
+    <id>http://nathanspeller.github.com/tone</id>
     <content type="html"><![CDATA[<p>Here&#8217;s a self-awareness tip.</p>
 
 <p>While thinking through your problems, your mood can easily cloud your judgement. However, sometimes you&#8217;ll get so lost in your internal dialogue that you won&#8217;t realize the additional stress you&#8217;re causing yourself.</p>
@@ -305,9 +305,9 @@ Step 3. PROFIT</p>
   
   <entry>
     <title type="html"><![CDATA[Success is Silent]]></title>
-    <link href="http://nathanspeller.com/internal-dialogue/"/>
+    <link href="http://nathanspeller.github.com/internal-dialogue/"/>
     <updated>2012-10-14T22:18:00-07:00</updated>
-    <id>http://nathanspeller.com/internal-dialogue</id>
+    <id>http://nathanspeller.github.com/internal-dialogue</id>
     <content type="html"><![CDATA[<p>In a given day, who do you talk to most? A co-worker? Best friend? A significant other?</p>
 
 <p>I&#8217;m willing to bet that there&#8217;s another person you speak to more. One that never stops talking to you, and never waits for your response. One that criticizes all your actions, second-guesses all your decisions, and nags you endlessly about how little you&#8217;ve accomplished. No, it&#8217;s not your mother and it&#8217;s not your ex.</p>
