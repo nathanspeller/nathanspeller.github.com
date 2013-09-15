@@ -230,6 +230,38 @@ a:hover{
 	color: saturate(#dd4a38, 10) !important;
 }
 
+.book-sidebar{
+  p{
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1114px) {
+  .book-sidebar{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    img{
+      width: 140px;
+      position: relative;
+      right: 160px;
+      margin-bottom: -218px;
+    }
+  }
+}
+
+@media (min-width: 1115px) {
+  .book-sidebar{
+    width: 200px; 
+    position: fixed; 
+    right: 40px; 
+    top: 40px;
+  }
+}
+
+
+
+
 @media only screen and (max-width: 549px) {
   .stars{
     display: none;
